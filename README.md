@@ -5,8 +5,8 @@ Simple snippet that can be added into the background page code to modify the use
 
 if executed at the proper time. Also has a bookmarklet executor included.
 
-example icon by :
-Yanko Andreev
-https://twitter.com/eynk
-http://yankoa.deviantart.com/
-License: CC Attribution Non-Commercial Share Alike
+
+
+example icon by : Yanko Andreevhttps://twitter.com/eynk
+ http://yankoa.deviantart.com/
+ Icon License: CC Attribution Non-Commercial Share Alike
