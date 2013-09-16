@@ -15,18 +15,10 @@ function updateCheck(status){
 
 chrome.app.runtime.onLaunched.addListener(
     function() {
-        if(app.window){
-            if(app.window.chrome.app.window.id){
-                app.window.chrome.app.window.current().show();
-                return;
-            }
-        }
-        
         chrome.app.window.create(
             'index.html', 
             {
                 id:'your-app-name',
-                singleton:true,
                 bounds: {
                     width: Math.round(width),   //Math round is required for linux and Mac 
                     height: Math.round(height), //Apps will crash if you use a float for width or position
