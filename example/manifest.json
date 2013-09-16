@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "Chrome App Webview User Agent",
+    "description":"Modifies user agent of Chrome App webView.",
+    "minimum_chrome_version": "23",
+    "version": "0.0.0.1",
+    "icons": {
+        "16" : "Browser-16.png",
+        "32" : "Browser-32.png",
+        "64" : "Browser-64.png",
+        "128": "Browser-128.png",
+        "256": "Browser-256.png"
+    },
+    "app": {
+        "background": {
+            "scripts": [
+                    "main.js"
+            ]
+        }
+    },
+    "permissions": [
+        "webview",
+        "http://diginow.it/demo/chrome-app-user-agent-and-bookmarklet-webview/"
+    ]
+}
