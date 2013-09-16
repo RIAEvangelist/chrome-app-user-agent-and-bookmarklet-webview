@@ -5,11 +5,11 @@
     "minimum_chrome_version": "23",
     "version": "0.0.0.1",
     "icons": {
-        "16" : "Browser-16.png",
-        "32" : "Browser-32.png",
-        "64" : "Browser-64.png",
-        "128": "Browser-128.png",
-        "256": "Browser-256.png"
+        "16" : "Browser-White-Frame-16.png",
+        "32" : "Browser-White-Frame-32.png",
+        "64" : "Browser-White-Frame-64.png",
+        "128": "Browser-White-Frame-128.png",
+        "256": "Browser-White-Frame-256.png"
     },
     "app": {
         "background": {

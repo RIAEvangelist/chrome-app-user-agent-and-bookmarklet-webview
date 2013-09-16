@@ -7,10 +7,7 @@ if executed at the proper time. Also has a bookmarklet executor included.
 
 
 
-### example icon by : Yanko Andreev  
->https://twitter.com/eynk   
->http://yankoa.deviantart.com/   
->Icon License: CC Attribution Non-Commercial Share Alike
+example icon by : Benjamin Sow, http://bensow.deviantart.com
 
 ---
 > Written with [StackEdit](http://benweet.github.io/stackedit/).
