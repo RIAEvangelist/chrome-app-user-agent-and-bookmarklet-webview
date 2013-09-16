@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
-    "name": "Chrome App Webview User Agent",
-    "description":"Modifies user agent of Chrome App webView.",
+    "name": "Set User Agent App Webview",
+    "description":"Demo showing how to modify user agent of Google Chrome(tm) App webview.",
     "minimum_chrome_version": "23",
     "version": "0.0.0.1",
     "icons": {
