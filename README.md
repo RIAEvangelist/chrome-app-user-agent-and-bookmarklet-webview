@@ -99,5 +99,8 @@ if you want to use a file the code paramater will be the name of the file.
 
 Please feel free to leave questions bug requests or any feedback at all.
 
+Special thanks to __Fady Samuel__ and __Ken Rockot__ who helped me point me in the right direction
+to achive what I was looking for in this.
+
 ---
 > Written with [StackEdit](http://benweet.github.io/stackedit/).
