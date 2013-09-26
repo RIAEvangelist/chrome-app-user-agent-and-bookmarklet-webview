@@ -6,6 +6,7 @@ direct function injection example
 ### example dir
 this gives an example of every type of useage as well as implementing the customUserAgentScript in __example5__
 of the js/bookmarklet.js file.
+
 The code will automatically use the data from your manifest file to build its specific user agent. You can further customize the code if you like, but if we all keep it somewhat similar it will help webpage owners see how many users are using chrome apps to view their site. This will help our community as a whole gain traction without confusing website/app developers marketers and owners.
 ***
 ### Download and try the demo from the chrome webstore  
@@ -15,7 +16,7 @@ __example icon author__  : [AhaSoft](http://www.aha-soft.com/)
 __example icon license__ : [CC Attribution Non-Commercial No Derivatives](http://creativecommons.org/licenses/by-nc-nd/3.0/)
 
 [JitterBeast](http://theoatmeal.com/blog/jitterbeast) belongs to and was created by [The Oatmeal](http://theoatmeal.com/) if you don't know who that is, welcome
-to a new chapter of your perviously mindnumbingly boring existance.
+to a new chapter of your previously mindnumbingly boring existance.
 
 
 ***
