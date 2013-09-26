@@ -1,5 +1,5 @@
-# ![Chrome App User Agent icon](https://raw.github.com/riaEvangelist/chrome-app-user-agent-and-bookmarklet-webview/master/example/Browser-White-Frame-32.png) Google Chrome App Webview script injector for sandboxed and global scopes
-Manifest based userAgent example  
+# ![Chrome App User Agent icon](https://raw.github.com/RIAEvangelist/chrome-app-user-agent-and-bookmarklet-webview/master/example/bookmarklet/Bookmark-48.png) Google Chrome App Webview script injector for sandboxed and global scopes
+Manifest based userAgent example   
 bookmarklet (ish) example  
 direct function injection example  
 ***
