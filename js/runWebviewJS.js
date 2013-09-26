@@ -1,4 +1,9 @@
-function runWebviewJS(el,code,requiresGlobal,isFile,data){
+function runWebviewJS(el,code,runASAP,requiresGlobal,isFile,data){
+    if(runASAP)
+        runASAP='document_start';
+    if(!runASAP)
+        runASAP='document_idle';
+        
     if(!isFile && requiresGlobal){
         el.executeScript(
             { 
@@ -11,7 +16,8 @@ function runWebviewJS(el,code,requiresGlobal,isFile,data){
     if(!isFile){
         el.executeScript(
             { 
-                code: '(' + code + ')()' 
+                code    : '(' + code + ')()',
+                runAt   : runASAP
             }
         );
         return;
@@ -20,7 +26,8 @@ function runWebviewJS(el,code,requiresGlobal,isFile,data){
     if(!data && !requiresGlobal){
         el.executeScript(
             { 
-                file:code 
+                file    : code,
+                runAt   : runASAP
             }
         );
         return;
@@ -44,14 +51,16 @@ function runWebviewJS(el,code,requiresGlobal,isFile,data){
         if(!requiresGlobal){
             el.executeScript(
                 { 
-                    code: script
+                    code    : script,
+                    runAt   : runASAP
                 }
             );
             return;
         }
         el.executeScript(
             { 
-                code: '(' + insertScriptTag + '(' + script + '))' 
+                code    : '(' + insertScriptTag + '(' + script + '))',
+                runAt   : runASAP
             }
         );
     };
@@ -62,5 +71,16 @@ function runWebviewJS(el,code,requiresGlobal,isFile,data){
 function insertScriptTag(code) {
     var script = document.createElement('script');
     script.innerText = '(' + code + ')()';
-    document.head.appendChild(script);
+    window.userAgentSetter=setInterval(
+        (
+            function(script){
+                return function(){
+                    if(!document.head)
+                        return;   
+                    clearInterval(userAgentSetter);
+                    document.head.appendChild(script);
+                }
+            }
+        )(script),1  
+    );
 };

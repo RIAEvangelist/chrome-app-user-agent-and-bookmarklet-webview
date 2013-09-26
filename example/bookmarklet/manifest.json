@@ -2,14 +2,14 @@
     "manifest_version": 2,
     "name": "Set User Agent App Webview",
     "description":"Demo showing how to modify user agent of Google Chrome(tm) App webview.",
-    "minimum_chrome_version": "23",
-    "version": "0.0.0.3",
+    "minimum_chrome_version": "28",
+    "version": "0.1.0.0",
     "icons": {
-        "16" : "Browser-White-Frame-16.png",
-        "32" : "Browser-White-Frame-32.png",
-        "64" : "Browser-White-Frame-64.png",
-        "128": "Browser-White-Frame-128.png",
-        "256": "Browser-White-Frame-256.png"
+        "16" : "Bookmark-16.png",
+        "32" : "Bookmark-32.png",
+        "64" : "Bookmark-64.png",
+        "128": "Bookmark-128.png",
+        "256": "Bookmark-256.png"
     },
     "app": {
         "background": {
