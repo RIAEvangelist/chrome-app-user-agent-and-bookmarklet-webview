@@ -52,9 +52,10 @@ Next, in your handler function, set the code to send your code or file
     runWebviewJS(
         el,             (webview element)
         code,           (code to run OR filename)
-        requiresGlobal, (needs explicit access to webview window global scope)
-        isFile,         (load file from app dir)
-        data            (template object with variables to replace in file)
+        runASAP,        (run code as soon as possible) *false
+        requiresGlobal, (needs explicit access to webview window global scope) *false
+        isFile,         (load file from app dir) *false
+        data            (template object with variables to replace in file) *false
     )
 
 Example data object
