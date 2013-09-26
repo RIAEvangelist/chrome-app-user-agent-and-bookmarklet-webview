@@ -14,6 +14,10 @@ https://chrome.google.com/webstore/detail/set-user-agent-app-webvie/mpbnpaonopfc
 __example icon author__  : [AhaSoft](http://www.aha-soft.com/)  
 __example icon license__ : [CC Attribution Non-Commercial No Derivatives](http://creativecommons.org/licenses/by-nc-nd/3.0/)
 
+[JitterBeast](http://theoatmeal.com/blog/jitterbeast) belongs to and was created by [The Oatmeal](http://theoatmeal.com/) if you don't know who that is, welcome
+to a new chapter of your perviously mindnumbingly boring existance.
+
+
 ***
 ### how to use
 ***
